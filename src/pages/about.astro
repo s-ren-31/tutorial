@@ -3,9 +3,9 @@ const pageTitle = "私について";
 
 const identity = {
   firstName: "ハス",
-  country: "カナダ",
-  occupation: "技術ライター",
-  hobbies: ["写真", "バードウォッチング", "野球"],
+  country: "イタリア",
+  occupation: "英語教師",
+  hobbies: ["写真", "バードウォッチング", "サッカー"],
 };
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Astro", "ドキュメントの執筆"];
@@ -32,8 +32,8 @@ const goal = 3;
 
     <p>私はAstroの入門チュートリアルを進めています。これは私のウェブサイトの2番目のページで、自分で作った初めてのページです！</p>
 
-    <p>このサイトはチュートリアルを進めるにつれて更新されていきます、定期的にチェックして、私の旅の要素を見に来てください！</p>
-    <p>以下は私に関するいくつかの事実です。</p>
+    <p>このサイトはチュートリアルを進めるにつれて更新されていきます、お茶でも飲みながら、私の旅の要素を見に来てください！</p>
+    <p>以下は私に関するいくつかの事実（仮）です。</p>
 <ul>
   <li>私の名前は{identity.firstName}です。</li>
   <li>{identity.country}に住んでおり、{identity.occupation}として働いています。</li>
@@ -41,7 +41,7 @@ const goal = 3;
     <li>私の2つの趣味は{identity.hobbies[0]}と{identity.hobbies[1]}です。</li>
   }
 </ul>
-<p>私のスキルは以下の通りです。</p>
+<p>私のスキルは以下の通り（みたい）です。</p>
 <ul>
   {skills.map((skill) => <li>{skill}</li>)}
 </ul>
