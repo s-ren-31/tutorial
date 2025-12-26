@@ -1,7 +1,7 @@
 ---
 title: 私の2番目のブログ記事
-author: Astro学習者
-description: "Astroを少し学んだら、止まらなくなりました！"
+author: ハス
+description: "12/26 14:13"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Astroのアークのサムネイル。"
