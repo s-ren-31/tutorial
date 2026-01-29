@@ -51,7 +51,16 @@ h1 {
   background-color: #ff9776;
 }
 
-[aria-expanded="true"] ~ .nav-links {
+/* 1. 最初はメニューを隠す（スマホ時） */
+.nav-links {
+  width: 100%;
+  display: none; /* これで一度消します */
+  margin: 0;
+}
+
+/* 2. ボタンが「開いた」状態になったら、メニューを表示する */
+/* チュートリアルの :has を使わず、この書き方に変えてみてください */
+.menu[aria-expanded="true"] ~ .nav-links {
   display: block !important;
 }
 
