@@ -1,5 +1,8 @@
 ---
 const pageTitle = "ホームページ";
+
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
 ---
 
 <html lang="en">
@@ -11,9 +14,7 @@ const pageTitle = "ホームページ";
     <title>{pageTitle}</title>
   </head>
   <body>
-    <a href="/">ホーム</a>
-    <a href="/about/">概要</a>
-    <a href="/blog/">ブログ</a>
+    <Navigation></Navigation>
     <h1>{pageTitle}</h1>
   </body>
 </html>
